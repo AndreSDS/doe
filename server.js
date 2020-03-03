@@ -62,4 +62,5 @@ server.post('/', (req, res) => {
 });
 
 //ligar servidor
-server.listen(3000);
+//PORT n existe - heroku que vai preencher
+server.listen(process.env.PORT || 3000);
